@@ -1,10 +1,10 @@
 const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 
-import resolvers from './resolvers';
-import typeDefs from './typeDefs';
+import resolvers from './src/resolvers';
+import typeDefs from './src/typeDefs';
 
-import connectDB from './db';
+import connectDB from './src/db';
 
 const app = express();
 connectDB();
