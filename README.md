@@ -1,2 +1,3 @@
 # encode-labs
- technical interview
+ - Correr con "npm run dev"
+ - Dirigirse a /graphql
